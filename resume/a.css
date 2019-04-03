@@ -1,0 +1,180 @@
+body {
+background: #EFEFEF;
+}
+
+a {
+    text-decoration: none;
+}
+*{
+    margin: 0px;
+    
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+.topNavBar {
+    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+}
+.topNavBar .topNavBar-inner{
+    padding: 20px 16px 20px 16px;
+}
+.topNavBar .logo{
+font-family:"Arial Black";
+float: left;
+font-size:24px;
+padding-top: 3px;
+padding-bottom: 4px;
+}
+.topNavBar .logo .rs{
+    color: #e6686a;
+    margin-right: 4px;
+
+}
+.topNavBar .logo .card{
+    color: #9A9DA2;
+}
+.topNavBar nav{
+    font-size: 13px;
+    padding-top: 7px;
+
+}
+.topNavBar nav a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-weight:  bold;
+}
+.topNavBar nav ul{
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+}
+.topNavBar nav ul>li{
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.topNavBar nav ul>li>a{
+    font-size: 12px;
+    color:#b7b7b7;
+    font-weight: bold;
+    border-top:3px solid transparent;
+    border-bottom: 3px solid transparent;
+
+}
+.topNavBar nav ul>li>a:hover{
+    border-bottom-color:  #DC6465;
+}
+.banner{
+    height: 515px;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.banner .mask{
+    height: 515px;
+    background:rgba(0, 0, 0, 0.5);
+}
+.useCard{
+    border: red solid 1px;
+    max-width: 940px;
+margin-left: auto;
+margin-right: auto;
+background: #FFFFFF;
+}
+.useCard .picture{
+    height: 347px;
+    width: 299px;
+}
+.useCard .pictureAndText{
+    padding:50px;
+
+}
+
+.useCard .welcome{
+    background: #E8676B;
+color: white;
+padding: 4px 16px;
+line-height: 22px;
+display: inline-block;
+
+position: relative;
+}
+.useCard .welcome .triangle{
+ border:10px solid transparent;
+ display: inline-block;
+  border-left-color:#E8676B;
+  border-top-width:0px;
+  position: absolute;
+  top: 100%;
+  left: 4px;
+}
+
+.useCard .picture{
+    float: left;
+}
+.useCard .text{
+    float: left;
+    margin-left:65px;
+    width:470px;
+
+}
+.text h1{
+margin-top: 18px;
+
+}
+.text hr{
+height: 0;
+border:none;
+border-top:1px solid #DEDEDE;
+margin: 20px 0;
+}
+.text dl dd,
+.text dl dt{
+    float: left;
+    padding: 5px 0;
+
+}
+.text dl dd{
+    width:70%;
+    color:#9da0a7;
+}
+.text dl dt{
+    width:30%
+}
+.useCard footer{
+    background-color: #E8676B;
+    
+
+}
+.media{
+    text-align: center;
+
+}
+.media a{
+ 
+    display: inline-block;
+    border-radius: 50%;
+    width: 40px;
+    padding: 5px 0;
+    margin:16px;
+
+}
+.media a:hover{
+    background: #CF5D5F;
+}
+.media svg{
+width:30px;
+height: 30px;
+line-height: 30px;
+fill: white;
+
+vertical-align: top;
+}
