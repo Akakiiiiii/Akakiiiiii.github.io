@@ -9,6 +9,9 @@ a {
     margin: 0px;
     
 }
+ol,ul{
+    list-style: none;
+}
 .clearfix::after{
     content: '';
     display: block;
@@ -75,6 +78,7 @@ padding-bottom: 4px;
     height: 515px;
     background-position: center center;
     background-size: cover;
+
     
 }
 
@@ -83,11 +87,12 @@ padding-bottom: 4px;
     background:rgba(0, 0, 0, 0.5);
 }
 .useCard{
-    border: red solid 1px;
+ 
     max-width: 940px;
 margin-left: auto;
 margin-right: auto;
 background: #FFFFFF;
+box-shadow: 0px 2px 35px -5px rgba(0,0,0,0.55);
 }
 .useCard .picture{
     height: 347px;
@@ -177,4 +182,142 @@ line-height: 30px;
 fill: white;
 
 vertical-align: top;
+}
+.synopsis{
+    margin-top: -340px;
+}
+main .button{
+    font-size: 14px;
+    line-height: 16px;
+    padding: 21px 55px;
+    display: inline-block;
+    border: 1px solid #CDCFD1;
+    background-color: #EFEFEF;
+    border-radius: 2px;
+    color: #3d4451;
+    font-weight: bold;
+    margin: 31px 0;
+    transition: box-shadow 0.3s;
+   
+
+}
+main .button:hover{
+    box-shadow: 0px 12px 17px -3px rgba(0,0,0,0.55);
+}
+.selfIntroduction{
+    max-width: 940px;
+margin: 0 auto;
+font-family: "方正行黑简体";
+text-align: center;
+font-size: 18px;
+line-height: 1.8;
+}
+.skill,
+.portfolio {
+    max-width: 940px;
+    margin: 0 auto;
+    
+
+}
+.skill h2,
+.portfolio h2 {
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-top: 60px;
+    
+
+}
+.skill ol{
+    box-shadow: 0px 2px 35px -5px rgba(0,0,0,0.55);
+padding: 0px;
+padding: 42px 50px 10px;
+background-color: white;
+margin-top: 30px;
+}
+.skill ol li{
+    float: left;
+    width: 48%;
+    font-size: 14px;
+    line-height: 1.1;
+
+}
+.skill ol li:nth-child(even){
+    float: right;
+}
+.skill .progressBar {
+ 
+    height: 5px;
+    background: #FAE1E1;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 40px;
+}
+.skill .progressBar .progress{
+    height: 100%;
+    background-color: #E8676B;
+    width: 50%;
+
+}
+.portfolio nav{
+    text-align: center;
+}
+.portfolio ol{
+    padding-left: 0px;
+    display: inline-block;
+
+}
+.portfolio ol li{
+float: left;
+margin-left: 40px;
+cursor: pointer;
+}
+.portfolio ol li:nth-child(1){
+    margin-left: 0px;
+}
+.portfolio {
+    text-align: center;
+}
+.portfolio nav{
+display: inline-block;
+vertical-align: top;
+margin-top: 34px;
+}
+.portfolio nav .bar{
+height: 5px;
+background: white;
+
+}
+.portfolio nav .bar .bar-inner{
+    height: 100%;
+    background:#E8676B;
+    border-radius: 3px;
+    width: 50px;
+    transition: all 0.3s;
+
+}
+.portfolio nav .bar.state1 .bar-inner{
+ margin-left: 0px;
+
+}
+.portfolio nav .bar.state2 .bar-inner{
+
+    margin-left: 65px;
+
+}
+.portfolio nav .bar.state3 .bar-inner{
+    margin-left: 140px;
+    width:96px;
+}
+.portfolio .jobs{
+    height: 597px;
+    margin-top: 15px;
+    position: relative;
+}
+.portfolio .jobs .big,
+.portfolio .jobs .small{
+    position: absolute;
+
 }
